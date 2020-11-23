@@ -12,10 +12,11 @@ import { IconContext } from 'react-icons/lib';
 import logo from './logo.svg';
 
 
+
 const Navbar = () => {
     const [click, setClick] = useState(false);
-
     const handleClick = () => setClick(!click);
+
 
     return (
         <React.Fragment>

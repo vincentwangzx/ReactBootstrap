@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
         position: absolute; 
         top: 68px; 
         left: ${({click}) => (click ? 0 : '-100%')};
-        opacity: 0.85;
+        opacity: 0.95;
         transition: all 0.5s ease;
         background: #ff5c7a;
     }
@@ -78,6 +78,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height: 80px;
     border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
         border-bottom: 2px solid lightpink;
