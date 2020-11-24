@@ -103,4 +103,10 @@
     .cards__item {
       margin-bottom: 2rem;
     }
+    h1 {
+      font-size: 1.8rem;
+    }
+    .cards__item__text {
+      font-size: 0.8rem;
+    }
   }
