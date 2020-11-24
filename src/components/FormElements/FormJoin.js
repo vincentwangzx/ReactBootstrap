@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import FormRequest from './FormRequest';
+import FormRecruit from './FormRecruit';
 import FormReceived from './FormReceived'
 
-const Form = () => {
+const FormJoin = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
 
     function submitForm() {
@@ -15,10 +15,10 @@ const Form = () => {
         <div className='form-container'>
             <span className='close-btn'>×</span>
             <div className='form-content-left'>
-                <img className='form-img' src='images/img-1.svg' alt='request' />
+                <img className='form-img' src='images/img-2.svg' alt='request' />
             </div>
             {!isSubmitted ? ( 
-            <FormRequest submitForm=
+            <FormRecruit submitForm=
             {submitForm} /> 
             ) : ( <FormReceived />
             )}
@@ -27,4 +27,4 @@ const Form = () => {
     );
 };
 
-export default Form
+export default FormJoin

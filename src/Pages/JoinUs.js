@@ -1,7 +1,8 @@
 import React from 'react';
+import FormJoin from '../components/FormElements/FormJoin';
 
 export const JoinUs = () => (
     <div>
-        <h1>Join Us!</h1>
+        <FormJoin />
     </div>
 );
